@@ -648,6 +648,19 @@
     <Content Include="Areas\Crawler\Views\Home\Index.cshtml" />
     <Content Include="Cms_Data\Sites\Sample\Templates\Views\Home.Slider\setting.config" />
     <Content Include="Cms_Data\Sites\Sample\Templates\Views\Home.Slider\template.cshtml" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Menu.Articles\setting.config" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Menu.Articles\template.cshtml" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Menu.Home\setting.config" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Menu.Home\template.cshtml" />
+    <Content Include="Cms_Data\Sites\Sample\Pages\Letters\Contact\setting.config" />
+    <Content Include="Cms_Data\Sites\Sample\Pages\Letters\setting.config" />
+    <Content Include="Cms_Data\Sites\Sample\SubmissionSettings\PostLetter.config" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Letters.Create\setting.config" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Letters.Create\template.cshtml" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Letters.List\setting.config" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Letters.List\template.cshtml" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Article.List.Topbar\setting.config" />
+    <Content Include="Cms_Data\Sites\Sample\Templates\Views\Article.List.Topbar\template.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -1482,7 +1495,9 @@
     <Content Include="Scripts\yardiTip\images\arrow_top_yellow.gif" />
     <Content Include="Scripts\yardiTip\yardiTip.css" />
     <Content Include="Scripts\yardiTip\yardiTip.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

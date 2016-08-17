@@ -1,3 +1,19 @@
 ﻿@{
-    var data = Repository.Current.ExecuteQuery("");
-} 
+    Html.FrontHtml().IncludeScript(Url.FrontUrl().ScriptFileUrl("lib/jquery.slides.min.js").ToString());
+    Html.FrontHtml().IncludeScript(Url.FrontUrl().ScriptFileUrl("pages/home.js").ToString());
+}
+<ul class="slider" id="slides">
+    @foreach (var item in ViewBag.Slider)
+    {
+        string img = item.Image;
+        if (string.IsNullOrEmpty(img))
+        {
+            img = "http://placehold.it/960x300?text=" + item.Title;
+        }
+        <li @ViewHelper.EditItemAttributes(item)>
+            <a href="@item.Link">
+                <img src="@img" width="960" height="300">
+            </a>
+        </li>
+    }
+</ul>

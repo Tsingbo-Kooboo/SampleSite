@@ -1,0 +1,12 @@
+﻿ 
+<ul  class="list">
+    @foreach (var item in ViewBag.Letters){
+    <li  @ViewHelper.Edit(item)>
+        <a class='title' href='@Url.FrontUrl().PageUrl("Letter/detail",new { UserKey = item.UserKey})' @ViewHelper.Edit(item,"Title")>@item.Title</a>
+    </li>
+    }
+</ul>
+
+<div class="pager">
+@Html.FrontHtml().Pager(ViewBag.Letters)
+</div>

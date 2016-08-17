@@ -1,1 +1,4 @@
-﻿<h1 class="title">@Html.FrontHtml().PageLink("Back", "Articles",null,new {@class="back"})Article</h1>
+﻿@{
+    var category = Page_Context.Current.PageRequestContext.AllQueryString["Category"];
+}
+<h1 class="title">@Html.FrontHtml().PageLink("Back", "Articles", new { UserKey = category }, new { @class = "back" })Article</h1>

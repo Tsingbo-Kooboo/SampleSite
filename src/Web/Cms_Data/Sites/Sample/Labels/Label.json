@@ -196,5 +196,149 @@
     "UtcCreationDate": "2016-08-17T01:42:54.1532575Z",
     "UtcLastestModificationDate": null,
     "LastestEditor": "admin"
+  },
+  {
+    "UUID": "EYL3S376ZW",
+    "Name": "Sign Out",
+    "Value": "Sign Out",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:13.4197471Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "APFMD6ZEGB",
+    "Name": "Member profile",
+    "Value": "Member profile",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:13.4377595Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "8WFF8V8V6Y",
+    "Name": "First name",
+    "Value": "First name",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:14.4003978Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "PK6QJ5RRWJ",
+    "Name": "Last name",
+    "Value": "Last name",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:14.4044012Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "RNR38U7BK8",
+    "Name": "Age",
+    "Value": "Age",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:14.4094038Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "SN84P3WLQA",
+    "Name": "Culture",
+    "Value": "Culture",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:14.4144083Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "DE7RBV734T",
+    "Name": "Time zone",
+    "Value": "Time zone",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:14.4384227Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "GEFPLQJ3VX",
+    "Name": "Update",
+    "Value": "Update",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:14.4484301Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "5JGGLPBAHS",
+    "Name": "Change password",
+    "Value": "Change password",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:15.2509636Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "58C3UTY6RG",
+    "Name": "联系我们",
+    "Value": "联系我们",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:05:22.1241827Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "H9DJ4X3ZEV",
+    "Name": "Delete",
+    "Value": "Delete",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:28:41.7159703Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "FCMAA4W4X4",
+    "Name": "文章中心",
+    "Value": "文章中心",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:32:04.8472287Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "SHHGHK3NR7",
+    "Name": "DesignPage",
+    "Value": "DesignPage",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:42:59.2734128Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "8DEBCHGUAE",
+    "Name": "留言板",
+    "Value": "留言板",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:44:01.4340564Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "XYQD37GMJN",
+    "Name": "Title:",
+    "Value": "Title:",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:58:41.0910005Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "RMPA4K9J3B",
+    "Name": "Content:",
+    "Value": "Content:",
+    "Category": "",
+    "UtcCreationDate": "2016-08-17T14:58:41.0970041Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
   }
 ]

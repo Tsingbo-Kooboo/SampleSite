@@ -6,7 +6,7 @@
     @Html.FrontHtml().HtmlTitle()
     @Html.FrontHtml().Meta()
     @Html.FrontHtml().RegisterStyles()
-    @Html.FrontHtml().RegisterScripts()
+    <link href="@Url.FrontUrl().ThemeFileUrl("css/font-awesome.min.css")" rel="stylesheet" />
 </head>
 <body>
     <div id="body-container">
@@ -23,6 +23,7 @@
             <div class="topbar">
                 @Html.FrontHtml().Position("topbar", () => "<h1 class=\"title\">" + @MenuHelper.Current().LinkText.Label() + "</h1>")
             </div>
+            @Html.FrontHtml().Position("top")
             <div id="main">
                 @Html.FrontHtml().Position("main")
             </div>
@@ -36,5 +37,6 @@
     <div class="hide">
         @Html.FrontHtml().RenderView("LoginForm", ViewData)
     </div>
+    @Html.FrontHtml().RegisterScripts()
 </body>
 </html>

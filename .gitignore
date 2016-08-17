@@ -250,3 +250,10 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Kooboo
+**Search/Index/*
+**Cms_Data/Versions/*
+**Contents/*/Search/*
+**Cms_Data/Caching/*
+temp/

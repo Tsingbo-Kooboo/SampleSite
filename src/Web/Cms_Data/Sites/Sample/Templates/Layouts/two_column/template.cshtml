@@ -12,8 +12,10 @@
     <div id="body-container">
         <header id="header" class="clearfix">
             <h1 class="logo">
-                <a href='@Url.FrontUrl().PageUrl("Articles")'>
-                    <img src="@Url.FrontUrl().FileUrl("logo.png")" alt="Logo">@("Sample site".Label())</a></h1>
+                <a href='@Url.FrontUrl().PageUrl("Home")'>
+                    <img src="@Url.FrontUrl().FileUrl("logo.png")" alt="Logo">@("Sample site".Label())
+                </a>
+            </h1>
             @Html.FrontHtml().RenderView("Menu", ViewData)
             <ul class="quicklinks right">
                 @Html.FrontHtml().RenderView("LoginStatus")
@@ -21,13 +23,8 @@
         </header>
         <div id="main-container" class="clearfix">
             <div class="topbar">
-                <h1 class="title">@MenuHelper.Current().LinkText.Label()</h1>
-                <div class="searchbox">
-                    <form action="@Url.FrontUrl().PageUrl("search")" method="get">
-                        <input type="text" name="key" value="@Page_Context.Current.PageRequestContext.AllQueryString["key"]"/>
-                        <button type="submit">Search</button>
-                    </form>
-                </div>
+                @Html.FrontHtml().Position("topbar", () => "<h1 class=\"title\">" + @MenuHelper.Current().LinkText.Label() + "</h1>")
+                
             </div>
             <div id="main">
                 @Html.FrontHtml().Position("main")
@@ -36,7 +33,7 @@
                 @Html.FrontHtml().Position("sidebar")
             </aside>
         </div>
-        @Html.FrontHtml().RenderView("Footer",ViewData)
+        @Html.FrontHtml().RenderView("Footer", ViewData)
     </div>
     <div class="hide">
         @Html.FrontHtml().RenderView("LoginForm", ViewData)
